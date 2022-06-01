@@ -263,7 +263,7 @@ h1 {
   color: #fff;
   border: 0;
 }
-.slaq_button_2{
+.slaq_button_2 {
   width: 100%;
   position: absolute;
   display: flex;
@@ -271,8 +271,17 @@ h1 {
   top: 401px;
   padding: 0 40px;
 }
-.kiopka_button_2{
+.kiopka_button_2 {
   display: flex;
   justify-content: center;
   padding-top: 38px;
+}
+.container-fluid {
+  display: flex;
+  justify-content: center;
+}
+.container-fluid > div {
+  width: 725px;
+  height: 682px;
+  margin:  0 110px;
 }
