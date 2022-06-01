@@ -312,20 +312,20 @@ h1 {
   width: 173px;
   height: 52px;
   text-align: center;
-  border: 1px solid #2DC071;
+  border: 1px solid #2dc071;
   border-radius: 5px;
   margin-top: 30px;
 }
-.row--title{
+.row--title {
   text-align: center;
 }
 .row--title h5 {
-  color: #23A6F0;
+  color: #23a6f0;
   font-size: 14px;
   margin: 112px 0 10px;
 }
 .row--title h2 {
-  color: #252B42;
+  color: #252b42;
   font-size: 40px;
   margin-bottom: 10px;
 }
@@ -334,12 +334,108 @@ h1 {
   font-size: 14px;
   margin-bottom: 80px;
 }
-.col-md-3{
+.col-md-3 {
   display: flex;
   justify-content: center;
 }
-.col-md-3 div {
+.col-md-3 > div {
   width: 348px;
+  position: relative;
   margin: 5px;
-  
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding-bottom: 35px;
+}
+.tags--div {
+  display: flex;
+  font-size: 12px;
+}
+.tags--div p {
+  margin: 25px 0 10px 0;
+}
+.tags--div p:nth-child(1) {
+  color: #8ec2f2;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+.tags--div p:nth-child(2) {
+  color: #737373;
+  margin-right: 15px;
+}
+.tags--div p :nth-child(3) {
+  color: #737373;
+}
+.col-md-3 > div > h4 {
+  color: #252b42;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+.col-md-3 > div > p {
+  color: #737373;
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+.Frame {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.Frame > div {
+  margin: 0 25px;
+}
+.Frame > div > h4 > img {
+  margin-right: 7px;
+}
+.second-text {
+  color: #737373;
+  display: flex;
+  margin-left: 25px;
+}
+.second-text > h4 {
+  margin-right: 10px;
+}
+.danger-color {
+  background: #e74040;
+  border-radius: 3px;
+  color: #fff;
+  width: 38px;
+  height: 24px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 24px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.light-gray {
+  display: flex;
+  height: 142px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.light-gray > div :nth-child(1) {
+  margin-left: 195px;
+  color: #252b42;
+  font-size: 24px;
+}
+.light-gray > div :nth-child(3) {
+  margin-right: 258px;
+}
+.light-gray > div > img {
+  padding: 0 11px;
+}
+footer {
+  height: 272px;
+  background: #252b42;
+}
+.desktop-footer {
+  background: #fafafa;
+  width: 100%;
+  height: 74px;
+}
+.desktop-footer > h5 {
+  color: #737373;
+  margin-left: 195px;
+  line-height: 74px;
 }
