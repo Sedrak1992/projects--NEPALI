@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Montserrat";
+}
 .content-header {
   background: #252b42;
   height: 58px;
@@ -283,5 +286,60 @@ h1 {
 .container-fluid > div {
   width: 725px;
   height: 682px;
-  margin:  0 110px;
+  margin: 0 105px;
+}
+.container-fluid h5 {
+  color: #bdbdbd;
+  margin: 178px 0 30px;
+  font-size: 16px;
+}
+.container-fluid h2 {
+  color: #252b42;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.container-fluid p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #737373;
+}
+.btn-text {
+  color: #2dc071;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 52px;
+  width: 173px;
+  height: 52px;
+  text-align: center;
+  border: 1px solid #2DC071;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.row--title{
+  text-align: center;
+}
+.row--title h5 {
+  color: #23A6F0;
+  font-size: 14px;
+  margin: 112px 0 10px;
+}
+.row--title h2 {
+  color: #252B42;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.row--title p {
+  color: #737373;
+  font-size: 14px;
+  margin-bottom: 80px;
+}
+.col-md-3{
+  display: flex;
+  justify-content: center;
+}
+.col-md-3 div {
+  width: 348px;
+  margin: 5px;
+  
 }
