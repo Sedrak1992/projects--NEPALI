@@ -461,22 +461,22 @@ h1 {
   margin-left: 195px;
   line-height: 74px;
 }
-footer >  div {
+footer > div {
   margin-left: 195px;
   padding-bottom: 32px;
   width: 1059px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
-  grid-gap:92px;
+  grid-gap: 92px;
 }
 footer > div > div > h4 {
   margin: 50px 0 20px;
   font-size: 16px;
-  color: #252B42;
+  color: #252b42;
 }
 footer > div > div > h5 {
   margin: 50px 0 20px;
-  color: #252B42;
+  color: #252b42;
   font-size: 16px;
 }
 footer > div > div > p {
@@ -485,22 +485,23 @@ footer > div > div > p {
   color: #737373;
 }
 footer > div > div > button {
- padding: 15px 20px;
- background: #23A6F0;
- border: 0;
- color: #ffff;
- margin-left: -3px;
+  padding: 15px 20px;
+  background: #23a6f0;
+  border: 0;
+  color: #ffff;
+  margin-left: -3px;
+  border-radius: 0px 5px 5px 0px;
 }
 footer > div > div > input {
-  background: #F9F9F9;
+  background: #f9f9f9;
   border: 0;
   padding: 15px 20px;
   outline: 0;
- }
- ::-webkit-input-placeholder {
+}
+::-webkit-input-placeholder {
   color: #737373;
 }
-footer > div >div:nth-child(5) p{
+footer > div > div:nth-child(5) p {
   color: #737373;
   font-size: 12px;
   margin-top: 1px;
