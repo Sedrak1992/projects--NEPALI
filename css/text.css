@@ -3,8 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+  color: #fff;
+}
 body {
   font-family: "Montserrat";
+}
+.phone{
+  display:flex;
+  align-items: center;
 }
 .content-header {
   background: #252b42;
@@ -27,6 +35,8 @@ body {
 }
 .content-header > div:first-child {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .content-header > div:first-child h4 {
   margin-right: 11px;
@@ -45,6 +55,10 @@ h1 {
   color: #252b42;
   margin-right: 71px;
 }
+.ul--box {
+  display: flex;
+  list-style: none;
+}
 .navbar-light > div {
   color: #737373;
   padding: 0 36px;
@@ -53,8 +67,10 @@ h1 {
   color: #23a6f0;
   margin-right: 20px;
 }
-.Song > p {
+.Song > ul > li > a {
   margin-right: 20px;
+  color: #211dca;
+  /* font-weight: 700; */
 }
 .slaq {
   padding-left: 7px;
@@ -63,7 +79,9 @@ h1 {
   position: relative;
   color: beige;
   height: 716px;
+  background-size: contain;
   background-image: url(../img/shop-hero-1-product-slide-1.jpeg);
+  width: 100%;
 }
 .texs_blok {
   position: absolute;
